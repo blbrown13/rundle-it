@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/makerundle.js"></script>
+		<script src="js/printrundle.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+		<link rel="stylesheet" href="css/font-awesome.css" type="text/css"/>
+		<link rel="stylesheet" href="css/index.css" type="text/css">
+		<title>Make Your Rundle</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Michael Digman" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-34813976-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- BREADCRUMB NAV -->
+			<ul class="breadcrumb lead breadcrumb-nav" style="margin-top: 10px;">
+				<li>
+					<img src="img/logo.png" width="30px" style="vertical-align: bottom;"><a class="header" href="index.html"> <strong>RUNDLE</strong> IT</a>
+				</li>
+				<li>
+					<a id="0"><i class="icon-check-empty"></i>Pre-Race</a><span class="divider"><i class="icon-chevron-right"></i></span>
+				</li>
+				<li>
+					<a id="1"><i class="icon-check-empty"></i>Race</a><span class="divider"><i class="icon-chevron-right"></i></span>
+				</li>
+				<li>
+					<a id="2"><i class="icon-check-empty"></i>Post-Race</a><span class="divider"><i class="icon-chevron-right"></i></span>
+				</li>
+				<li>
+					<a id="3"><i class="icon-check-empty"></i>Extras</a><span class="divider"><i class="icon-chevron-right"></i></span>
+				</li>
+				<li>
+					<a id="4"><i class="icon-check-empty"></i>Review</a><span class="divider"><i class="icon-chevron-right"></i></span>
+				</li>
+				<li>
+					<a id="5"><i class="icon-check-empty"></i>Pay</a>
+				</li>
+			</ul>
+
+			<!-- END BREADCRUMB -->
+			<div class="row">
+				<div class="span3">
+					<div class="selectorDescription">
+						<h1>Pre-Race</h1>
+						<p class="des">
+							DES
+						</p>
+						<!--<ul class="included-items"></ul>-->
+					</div>
+					<hr>
+					<div class="rundleDescription">
+						<p>
+							<span class="rundleType"></span>
+							<span class="lead"><strong>Rundle</strong></span>
+						</p>
+
+						<table class="table item-table table-bordered">
+							<thead>
+								<tr class="item-table-header">
+									<td>Base</td>
+									<td>Extras</td>
+									<td>Total</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>$<span class="basecost">1.22</span></td>
+									<td>$<span class="extracost">0.00</span></td>
+									<td class="lead"><strong>$<span class="totalcost">X.XX</span></strong></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div class="well">
+							<a class="btn btn-large btn-block btn-flash btn-primary"><h4>NEXT: <span class="nextCat">RACE</span><i class="icon-chevron-right"></i></h4></a>
+							<a class="btn btn-small btn-block"><i class="icon-chevron-left"></i> PREV: <span class="prevCat">RACE</span></a>
+						</div>
+
+						<!--<div class="alert alert-info">Blue items are included in the base.</div>-->
+					</div>
+				</div>
+
+				<div>
+
+					<!-- PRE-RACE SPAN -->
+					<div class="span9 prerace">
+						<!-- START ITEM -->
+						<div class="prerace-item">
+							<h3 class="title">TITLE</h3>
+							<div class="row">
+								<div class="span1">
+									<img src="img/clif-chocolatechip-310x500.jpeg">
+								</div>
+								<div class="span8">
+									<p class="description"></p>
+									<div class="row">
+										<div class="span6">
+
+											<table class="table table-hover table-striped item-table">
+												<thead class="item-table-header">
+													<tr>
+														<td class="span3">Quantity</td>
+														<td class="span3">Type</td>
+														<td class="span1"></td>
+													</tr>
+												</thead>
+												<tbody>
+													<!--<tr class="info">
+													<td><span class="qty">QTY</span> x <span class="type">TYPE</span></td>
+													<td><select></select></td>
+													<td></td>
+													</tr>-->
+												</tbody>
+											</table>
+
+											<div>
+												<a class="btn btn-primary"><i class="icon-plus-sign"></i> Add One</a>
+												for $<span class="price">X.XX</span> extra
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<hr>
+						</div>
+						<!-- END ITEM -->
+					</div>
+					<!-- END PRE-RACE DIV -->
+
+					<!-- RACE SPAN -->
+					<div class="span8 race">
+
+						<div class="alert alert-info lead">
+							<i class="icon-hand-down"></i> Pick <strong>One</strong> Energy Source To Continue
+						</div>
+						<div class="row">
+							<div class="span4 race-item">
+								<h3 class="title">TITLE</h3>
+								<div class="row">
+									<div class="span1">
+										<img src="img/powerbar_gel.jpeg">
+									</div>
+									<div class="span3">
+										<p class="description">
+											DES
+										</p>
+										<a class="btn btn-large btn-race"><i class="icon-check-empty"></i> Take the <span class="type">TYPE</span></a>
+									</div>
+									<div class="span4 race-qty" style="margin-bottom: 30px;">
+										<table class="table table-hover table-striped item-table">
+											<thead class="item-table-header">
+												<tr>
+													<td class="span2">Quantity</td>
+													<td class="span1">Type</td>
+													<td class="span1"></td>
+												</tr>
+											</thead>
+											<tbody>
+												<!--<tr class="info">
+												<td><span class="qty">QTY</span> x <span class="type">TYPE</span></td>
+												<td><select></select></td>
+												<td></td>
+												</tr>-->
+											</tbody>
+										</table>
+
+										<div>
+											<a class="btn btn-primary"><i class="icon-plus-sign"></i> Add One</a>
+											for $<span class="price">X.XX</span> extra
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END RACE SPAN -->
+
+					<!-- POSTRACE SPAN -->
+					<div class="span9 postrace">
+						<!-- START ITEM -->
+						<div class="postrace-item">
+							<h3 class="title">TITLE</h3>
+							<div class="row">
+								<div class="span1">
+									<img src="img/clif-chocolatechip-310x500.jpeg">
+								</div>
+								<div class="span8">
+									<p class="description"></p>
+									<div class="row">
+										<div class="span6">
+
+											<table class="table table-hover table-striped item-table">
+												<thead class="item-table-header">
+													<tr>
+														<td class="span3">Quantity</td>
+														<td class="span3">Type</td>
+														<td class="span1"></td>
+													</tr>
+												</thead>
+												<tbody>
+													<!--<tr class="info">
+													<td><span class="qty">QTY</span> x <span class="type">TYPE</span></td>
+													<td><select></select></td>
+													<td></td>
+													</tr>-->
+												</tbody>
+											</table>
+
+											<div>
+												<a class="btn btn-primary"><i class="icon-plus-sign"></i> Add One</a>
+												for $<span class="price">X.XX</span> extra
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<hr>
+						</div>
+						<!-- END ITEM -->
+					</div>
+					<!-- END POST-RACE DIV -->
+
+					<!-- EXTRAS SPAN -->
+					<div class="span9 extras">
+						<!-- START ITEM -->
+						<div class="extras-item">
+							<h3 class="title">TITLE</h3>
+							<div class="row">
+								<div class="span1">
+									<img src="img/clif-chocolatechip-310x500.jpeg">
+								</div>
+								<div class="span8">
+									<p class="description"></p>
+									<div class="row">
+										<div class="span6">
+
+											<table class="table table-hover table-striped item-table">
+												<thead class="item-table-header">
+													<tr>
+														<td class="span3">Quantity</td>
+														<td class="span3">Type</td>
+														<td class="span1"></td>
+													</tr>
+												</thead>
+												<tbody>
+													<!--<tr class="info">
+													<td><span class="qty">QTY</span> x <span class="type">TYPE</span></td>
+													<td><select></select></td>
+													<td></td>
+													</tr>-->
+												</tbody>
+											</table>
+
+											<div>
+												<a class="btn btn-primary"><i class="icon-plus-sign"></i> Add One</a>
+												for $<span class="price">X.XX</span> extra
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<hr>
+						</div>
+						<!-- END ITEM -->
+					</div>
+					<!-- END POST-RACE DIV -->
+
+					<!-- review SPAN -->
+					<div class="span9 review">
+						<div class="review-item">
+							<h3 class="review-title"><span class="title">TITLE</span><a class="close btn"><i class="icon-pencil"></i> Edit <span class="title">TITLE</span></a></h3>
+
+							<table class="table table-hover table-striped item-table">
+								<thead class="item-table-header">
+									<tr>
+										<td class="span1">Price</td>
+										<td class="span2">Category</td>
+										<td class="span2">Name</td>
+										<td class="span2">Type</td>
+									</tr>
+								</thead>
+								<tbody>
+									<!--<tr class="info">
+									<td>Included</td><td><span class="type">Pre-Race Bar</span></td><td>Clif Bar</td><td>Peanut Butter</td>
+									</tr>
+									<tr>
+									<td>+ $2.49</td><td><span class="type">Pre-Race Bar</span></td><td>Clif Bar</td><td>Peanut Butter</td>
+									</tr>
+									<tr class="info">
+									<td>Included</td><td><span class="type">Pre-Race Drink</span></td><td>Gatorade G</td><td>Glacier Freeze</td>
+									</tr>-->
+								</tbody>
+							</table>
+						</div>
+
+						<div class="review-item">
+							<h3 class="review-title"><span class="title">TITLE</span><a class="close btn"><i class="icon-pencil"></i> Edit <span class="title">TITLE</span></a></h3>
+
+							<table class="table table-hover table-striped item-table">
+								<thead class="item-table-header">
+									<tr>
+										<td class="span1">Price</td>
+										<td class="span2">Category</td>
+										<td class="span2">Name</td>
+										<td class="span2">Type</td>
+									</tr>
+								</thead>
+								<tbody>
+									<!--<tr class="info">
+									<td>Included</td><td><span class="type">Pre-Race Bar</span></td><td>Clif Bar</td><td>Peanut Butter</td>
+									</tr>
+									<tr>
+									<td>+ $2.49</td><td><span class="type">Pre-Race Bar</span></td><td>Clif Bar</td><td>Peanut Butter</td>
+									</tr>
+									<tr class="info">
+									<td>Included</td><td><span class="type">Pre-Race Drink</span></td><td>Gatorade G</td><td>Glacier Freeze</td>
+									</tr>-->
+								</tbody>
+							</table>
+						</div>
+
+						<div class="review-item">
+							<h3 class="review-title"><span class="title">TITLE</span><a class="close btn"><i class="icon-pencil"></i> Edit <span class="title">TITLE</span></a></h3>
+
+							<table class="table table-hover table-striped item-table">
+								<thead class="item-table-header">
+									<tr>
+										<td class="span1">Price</td>
+										<td class="span2">Category</td>
+										<td class="span2">Name</td>
+										<td class="span2">Type</td>
+									</tr>
+								</thead>
+								<tbody>
+									<!--<tr class="info">
+									<td>Included</td><td><span class="type">Pre-Race Bar</span></td><td>Clif Bar</td><td>Peanut Butter</td>
+									</tr>
+									<tr>
+									<td>+ $2.49</td><td><span class="type">Pre-Race Bar</span></td><td>Clif Bar</td><td>Peanut Butter</td>
+									</tr>
+									<tr class="info">
+									<td>Included</td><td><span class="type">Pre-Race Drink</span></td><td>Gatorade G</td><td>Glacier Freeze</td>
+									</tr>-->
+								</tbody>
+							</table>
+						</div>
+
+						<div class="review-item">
+							<h3 class="review-title"><span class="title">TITLE</span><a class="close btn"><i class="icon-pencil"></i> Edit <span class="title">TITLE</span></a></h3>
+
+							<table class="table table-hover table-striped item-table">
+								<thead class="item-table-header">
+									<tr>
+										<td class="span1">Price</td>
+										<td class="span2">Category</td>
+										<td class="span2">Name</td>
+										<td class="span2">Type</td>
+									</tr>
+								</thead>
+								<tbody>
+									<!--<tr class="info">
+									<td>Included</td><td><span class="type">Pre-Race Bar</span></td><td>Clif Bar</td><td>Peanut Butter</td>
+									</tr>
+									<tr>
+									<td>+ $2.49</td><td><span class="type">Pre-Race Bar</span></td><td>Clif Bar</td><td>Peanut Butter</td>
+									</tr>
+									<tr class="info">
+									<td>Included</td><td><span class="type">Pre-Race Drink</span></td><td>Gatorade G</td><td>Glacier Freeze</td>
+									</tr>-->
+								</tbody>
+							</table>
+						</div>
+
+					</div>
+					<!-- END Review DIV -->
+
+					<div class="span9 pay">
+						<h1>Nope.</h1>
+						<h3>Sorry killa', sales are currently offline.</h3>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>
